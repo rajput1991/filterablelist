@@ -74,6 +74,9 @@
         filterInput.addEventListener('keyup',filterNames);
         function filterNames(){
             console.log("Test");
+            // Get value of input
+            let filterValue= document.getElementById('filterInput').value.toUpperCase();
+            console.log(filterValue);
         }
         </script>
     </body>
